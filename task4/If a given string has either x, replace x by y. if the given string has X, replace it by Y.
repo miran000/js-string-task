@@ -1,0 +1,16 @@
+let str = "xXhello x world X";
+let result = "";
+
+for (let i = 0; i < str.length; i++) {
+    if (str[i] === "x") {
+        result += "y";
+    } 
+    else if (str[i] === "X") {
+        result += "Y";
+    } 
+    else {
+        result += str[i];
+    }
+}
+
+console.log(result);
