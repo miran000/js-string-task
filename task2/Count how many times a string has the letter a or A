@@ -1,0 +1,9 @@
+var name = "BAngladesh";
+var count = 0; 
+for (var i = 0; i < name.length; i++) {
+    if (name[i] === "a" || name[i] === "A") {
+        count++;
+    }
+}
+console.log("The letter a is found " + count + " times in the string.");
+ 
