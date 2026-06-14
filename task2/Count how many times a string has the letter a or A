@@ -5,5 +5,5 @@ for (var i = 0; i < name.length; i++) {
         count++;
     }
 }
-console.log("The letter a is found " + count + " times in the string.");
+console.log("The letter a or A is found " + count + " times in the string.");
  
